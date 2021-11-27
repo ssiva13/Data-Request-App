@@ -1,0 +1,5 @@
+*
+!.gitignore
+!test.php
+!test_db.php
+!db-sample.php

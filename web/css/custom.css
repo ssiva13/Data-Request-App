@@ -1,0 +1,163 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 8, 2020, 11:51:24 AM
+    Author     : nkalu
+*/
+
+.icon-preview {
+    height: 28px;
+    width: 28px;
+}
+.grid-action-icon {
+    font-size: 1rem;
+}
+.inline-section {
+    display: inline;
+}
+.app-image {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+.file_upload_preview{
+    width: 100%;
+}
+.lds-spinner {
+  color: official;
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+  left: 45%;
+  margin-top: 8%;
+}
+.lds-spinner div {
+  transform-origin: 40px 40px;
+  animation: lds-spinner 1.2s linear infinite;
+}
+.lds-spinner div:after {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 3px;
+  left: 37px;
+  width: 6px;
+  height: 18px;
+  border-radius: 20%;
+  background: #3f6ad8;
+}
+.lds-spinner div:nth-child(1) {
+  transform: rotate(0deg);
+  animation-delay: -1.1s;
+}
+.lds-spinner div:nth-child(2) {
+  transform: rotate(30deg);
+  animation-delay: -1s;
+}
+.lds-spinner div:nth-child(3) {
+  transform: rotate(60deg);
+  animation-delay: -0.9s;
+}
+.lds-spinner div:nth-child(4) {
+  transform: rotate(90deg);
+  animation-delay: -0.8s;
+}
+.lds-spinner div:nth-child(5) {
+  transform: rotate(120deg);
+  animation-delay: -0.7s;
+}
+.lds-spinner div:nth-child(6) {
+  transform: rotate(150deg);
+  animation-delay: -0.6s;
+}
+.lds-spinner div:nth-child(7) {
+  transform: rotate(180deg);
+  animation-delay: -0.5s;
+}
+.lds-spinner div:nth-child(8) {
+  transform: rotate(210deg);
+  animation-delay: -0.4s;
+}
+.lds-spinner div:nth-child(9) {
+  transform: rotate(240deg);
+  animation-delay: -0.3s;
+}
+.lds-spinner div:nth-child(10) {
+  transform: rotate(270deg);
+  animation-delay: -0.2s;
+}
+.lds-spinner div:nth-child(11) {
+  transform: rotate(300deg);
+  animation-delay: -0.1s;
+}
+.lds-spinner div:nth-child(12) {
+  transform: rotate(330deg);
+  animation-delay: 0s;
+}
+@keyframes lds-spinner {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.profile-image {
+    width: 100%;
+}
+.profile-item {
+    margin-left: 20px;
+}
+.profile-text {
+    font-size: 16px;
+}
+.profile-item-row {
+    padding-left: 15px;
+}                          
+.config-desc-small {
+    float: right;
+    background-color: grey;
+    padding: 2px 6px;
+    border-radius: 5px;
+    color: white;
+}
+.card-details {
+  box-shadow: 0 3px 5px #3f6ad86e, 0 1px 2px #00000038;
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.card-details:hover {
+  box-shadow: 0 16px 30px #3f6ad86e, 0 10px 10px #00000038;
+  -webkit-transform: scale(1.02);
+  -moz-transform: scale(1.02);
+  -o-transform: scale(1.02);
+  -ms-transform: scale(1.02);
+  transform: scale(1.02);
+  transition: all 800ms;
+  z-index: 1;
+}
+
+.group-card-details {
+  box-shadow: 0 3px 5px #3f6ad86e, 0 1px 2px #00000038;
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.group-item {
+  box-shadow: 0 0 0 #3f6ad86e, 0 0 0 #00000038;
+  transition: all 0.5s cubic-bezier(.25,.8,.25,1);
+}
+
+.group-item:hover {
+  box-shadow: 0 6px 8px #3f6ad86e, 0 4px 5px #00000038;
+  -webkit-transform: scale(1.02);
+  -moz-transform: scale(1.02);
+  -o-transform: scale(1.02);
+  -ms-transform: scale(1.02);
+  transform: scale(1.02);
+  transition: all 800ms;
+  z-index: 1;
+}
