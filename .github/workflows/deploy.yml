@@ -7,7 +7,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Deploy NodeJS app
+      - name: Deploy app
         uses: appleboy/ssh-action@v0.1.2
         with:
           host: ${{secrets.SSH_HOST}} # IP address of the server you wish to ssh into
@@ -15,7 +15,6 @@ jobs:
           username: ${{ secrets.SSH_USERNAME }} # User of the server you want to ssh into
      
           script: |
-            mkdir test 
-            cd test 
-            git clone git@github.com:Mulubwa17/ci-cd-to-digitalocean-with-github-actions.git 
+            cd /var/www/html 
+            git clone git@github.com:ssiva13/Data-Request-App.git dar2
             echo 'Deployment successful to digital ocean' 
